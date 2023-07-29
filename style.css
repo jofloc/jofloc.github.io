@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.display-4 {
+    display: none;
+}
+
+.pp {
+    display: none;
+}
+
+.first-p {
+    display: none;
+    text-align: left;
+}
+
+.second-p {
+    display: none;
+    text-align: left;
+}
+
+/* .third-p {
+    display: none;
+    text-align: left;
+}
+
+.fourth-p {
+    display: none;
+    text-align: left;   
+} */
+
+.jumbotron {
+    padding-top: 200px;
+    background-color: #359696;
+}
+
+.jumbotron .lead {
+    font-size: larger;
+    padding: 30px;
+    color: white;
+}
+
+.logo {
+    font-size: 25px;
+}
+
+#home {
+    font-size: larger;
+}
+
+#about {
+    padding-top: 200px;
+    background-color: #a2d9ff;
+    font-size: larger;
+}
+
+/* #gallery {
+    padding-top: 100px;
+    background-color: #c46a6a;
+    text-align: center;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+} */
+
+#contact {
+    padding-top: 180px;
+    background-color: #284545;
+}
+
+.contact {
+    color: white;
+}
+
+form {
+    color: white;
+}
+
+footer {
+    background-color: #e7008a;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.list-group {
+    text-align: center;
+}
+
+.movie-container {
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.btn {
+    margin-right: 100px;
+}
+
+.input-keyword {
+    margin-left: 50px;
+}
+
+.input-group {
+    margin-left: 50px;
+}
+
+th{
+    background-color: rgb(249, 204, 121) !important;
+}
+
+.list-group-item {
+    background-color: #a2d9ff !important;
+    border-top: none;
+    border-bottom: none;
+}
+
+.kh{
+    color: rgb(83, 134, 164);
+}
+
+/* .name .email .message{
+    text-align: center;
+} */
+
+.submit{
+    text-align: center;
+    margin-left: 100px;
+}
+
+.flexbox{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
